@@ -1,0 +1,181 @@
+*{
+    font-size: 15px;
+    margin: 0;
+}
+
+.estrenos_general .estrenos .semana .semana_info .infoestreno h3{
+   font-size: 15px;
+}
+.estrenos_general .estrenos .semana .semana_info .infoestreno .puntaje .puntaje_porcentaje h4{
+    font-size: 15px;
+ }
+ .estrenos_general .estrenos .streaming .semana_info .infoestreno h3{
+    font-size: 15px;
+ }
+ .estrenos_general .estrenos .streaming .semana_info .infoestreno .puntaje .puntaje_porcentaje h4{
+     font-size: 15px;
+  }
+  .estrenos_general .estrenos .proximos .semana_info .infoestreno h3{
+    font-size: 15px;
+ }
+ .estrenos_general .estrenos .proximos .semana_info .infoestreno .puntaje .puntaje_porcentaje h4{
+     font-size: 15px;
+  }
+/* SECTION GENERAL */
+.general{
+    margin: 30px 150px;
+    display: block;
+}
+
+/* ARTICULOS */
+.articulos{
+    display: block;
+    width: 100%;
+}
+/* ARTICULOS DESTACADOS */
+.destacados{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+}
+.primero_destacado{
+    margin: 10px;
+    width: 50%;
+}
+.primero_destacado img{
+    width: 100%;
+}
+.primero_destacado img:hover{
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+.segundo_destacado{
+    margin: 10px;
+    width: 50%;
+}
+.segundo_destacado img{
+    width: 100%;
+}
+.segundo_destacado img:hover{
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+/* FIN ARTICULOS DESTACADOS */
+/* OTROS ARTICULOS */
+.otros_articulos{
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+}
+.primero_otros{
+    margin: 10px;
+    width: 33.33%;
+}
+.primero_otros img{
+    width: 100%;
+}
+.primero_otros img:hover{
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+.segundo_otros{
+    margin: 10px;
+    width: 33.33%;
+}
+.segundo_otros img{
+    width: 100%;
+}
+.segundo_otros img:hover{
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+.tercero_otros{
+    margin: 10px;
+    width: 33.33%;
+}
+.tercero_otros img{
+    height: 98.5%;
+    width: 100%;
+}
+.tercero_otros img:hover{
+    transform: scale(1.1); 
+    cursor: pointer;
+}
+/* FIN OTROS ARTICULOS */
+/* FIN ARTICULOS */
+
+/* ESTRENOS */
+.estrenos_general{
+    display: flex;
+    width: 100%;
+}
+/* ESTRENO */
+.estrenos{
+    margin: 0 auto;
+    display: flex;
+    width: 70%;
+}
+.infoestreno{
+    display: block;
+    margin: 0 10px; 
+}
+.puntaje{
+    display: flex;
+}
+.puntaje_porcentaje{
+    margin: 5px;
+}
+/* FIN ESTRENO */
+/* SEMANA */
+.semana{
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+.semana_info{
+    padding: 5px;
+    display: flex;
+    width: 100%;
+}
+.semana_info .imgestreno img{
+    width: 55px;
+    height: 75px;
+}
+.streaming{
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+/* FIN SEMANA */
+/* PROXIMOS ESTRENOS */
+.proximos{
+    padding: 10px;
+    display: block;
+    width: 100%;
+}
+.estrenos hr{
+    width: 90%;
+}
+/* FIN PROXIMOS ESTRENOS */
+/* FIN ESTRENOS */
+
+/* NOTICIAS */
+.noticias_recientes{
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+    width: 30%;
+}
+.noticias_recientes hr{
+    width: 80%;
+}
+.noticia{
+    width: 100%;
+    margin: 0 auto; 
+}
+.noticias_recientes img{
+    width: 100%;
+}
+
+/* FIN NOTICIAS */

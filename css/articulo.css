@@ -1,0 +1,45 @@
+*{
+    font-size: 15px;
+    margin: 0;
+}
+.articulo{
+    margin: 30px 150px;
+    padding: 50px;
+    display: block;
+}
+
+.info_articulo{
+    width: 100%;
+}
+.info_articulo .img_articulo img{
+    width: 100%;
+    height: 550px;
+}
+#descripcion_corta{
+    color: gray;
+    font-size: 20px;
+}
+
+.articulo_descripcion{
+    margin: 0 auto;
+    padding: 10px;
+    display: block;
+    width: 90%;
+}
+.articuloinfo{
+    padding: 5px;
+    display: flex;
+    width: 100%;
+}
+.articuloinfo .img_escrito img{
+    width: 75px;
+    height: 75px;
+}
+
+.infoarticulo{
+    display: block;
+    margin: 0 10px; 
+}
+.justificado{
+    text-align: justify;
+}

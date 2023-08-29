@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+}
+.infogeneral{
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: url(../img/fondospelicula/bluebeetle.webp) center;
+    background-size: cover;
+    width: 100%;
+}
+.general{
+    padding: 2rem 5rem;
+    text-align: center;
+    color: #fff;
+    box-shadow: 0px 0px 25px #222;
+    backdrop-filter: blur(20px);
+    width: 100%;
+    display: flex;
+}
+.poratada{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+}
+.poratada img{
+   width: 200px;
+}
+.descripcion{
+    text-align: justify;
+    width: 33.33%;
+}
+.puntuacion
+{
+    display: block;
+    text-align: center;
+    width: 33.33%;
+    size: 15;
+}
+.puntuacion_general{
+    width: 100%;
+    display: block;
+}
+.imagen_puntuacion{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.imagen_puntuacion img{
+    margin: 0 10px; 
+    width: 130px;
+}
+.puntuacion_general{
+    margin: 0 20px;
+}
+.titulo{
+    font-size: 30px;
+    
+}
+.texto{
+    width: 90%;
+    font-size: 15px;
+    font-style: italic;
+}
+.porcentaje h4{
+    font-size: 50px;
+}
+ul{
+    list-style: none;
+}
+
+
+.infopelicula{
+    width: 100%;
+    display: flex;
+}
+
+.pelicula_visual{
+    margin: 10px;
+    display: block;
+    width: 50%;
+}
+.reparto{
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.persona{
+    margin: 0 20px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-flow: column wrap;
+}
+.persona img{
+    
+    width: 100px;
+    height: 120px;
+}
+.opiniones{
+    margin: 10px;
+    display: block;
+    width: 50%;
+}
+.resena{
+    border-radius: 5px;
+    border-style: solid;
+    padding: 15px;
+    background: #cdf5fc;
+    text-align: justify;
+    width: 100%;
+}
